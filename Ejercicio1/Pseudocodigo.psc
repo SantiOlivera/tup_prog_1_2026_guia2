@@ -4,8 +4,8 @@ Proceso CondicionAlumno
 	Leer n1, n2, n3;
 	promedio <- (n1+n2+n3)/3;
 	Si (promedio >= 8) Entonces
-		Escribir "Promocionó";
+		Escribir "PromocionÃ³";
 	SiNo
-		Escribir "Regularizó";
+		Escribir "RegularizÃ³";
 	FinSi
 FinProceso
