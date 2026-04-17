@@ -5,9 +5,9 @@ Proceso Rectangulo
 	area <- base*altura;
 	Si (base<>altura) Entonces
 		Si (base>altura) Entonces
-			Escribir 'Es un rect·ngulo horizontal';
+			Escribir 'Es un rect√°ngulo horizontal';
 		SiNo
-			Escribir 'Es un rect·ngulo vertical';
+			Escribir 'Es un rect√°ngulo vertical';
 		FinSi
 	SiNo
 		Escribir 'Es un cuadrado';
