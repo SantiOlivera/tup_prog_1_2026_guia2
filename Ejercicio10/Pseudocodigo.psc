@@ -1,18 +1,18 @@
 Proceso AnioBisiesto
 	Definir anio Como Entero;
-	Escribir 'Ingrese el año';
+	Escribir 'Ingrese el aÃ±o';
 	Leer anio;
 	Si (anio MOD 4==0) Entonces
 		Si (anio MOD 100==0) Entonces
 			Si (anio MOD 400==0) Entonces
-				Escribir 'Es un año bisiesto';
+				Escribir 'Es un aÃ±o bisiesto';
 			SiNo
-				Escribir 'No es un año bisiesto';
+				Escribir 'No es un aÃ±o bisiesto';
 			FinSi
 		SiNo
-			Escribir 'Es un año bisiesto';
+			Escribir 'Es un aÃ±o bisiesto';
 		FinSi
 	SiNo
-		Escribir 'No es un año bisiesto';
+		Escribir 'No es un aÃ±o bisiesto';
 	FinSi
 FinProceso
